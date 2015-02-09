@@ -1,5 +1,5 @@
 FROM debian:8
-MAINTAINER claudinei.matos@gmail.com <Claudinei Matos>
+MAINTAINER Claudinei Matos <claudineimatos@gmail.com>
 
 ### SET AUTO-ACCEPTABLE SUN JAVA TERM ###
 RUN echo debconf shared/accepted-oracle-license-v1-1 select true | \
